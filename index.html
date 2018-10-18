@@ -9,6 +9,33 @@
     <title>Voting Information</title>
   </head>
   <body>
-
+    <h1>Voting Information</h1>
+    <div id="age-query">
+      <form id="age">
+        <div class="form-group">
+          <label for="getAge">Enter your current age:</label>
+          <input id="getAge" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    <div id="under-18">
+      <h2>You are currently <strong>ineligible</strong> to vote!</h2>
+      <h3>For more information about voting requirements, see the resources below:</h3>
+      <ul>
+        <li><a href="#">Voter Registration</a></li>
+        <li><a href="#">Voter Requirements</a></li>
+        <li><a href="#">Other Resources</a></li>
+      </ul>
+    </div>
+    <div id="over-18">
+      <h2>You are <strong>eligible</strong> to vote!</h2>
+      <h3>Follow the links below to learn about upcoming elections and your state's voting process:</h3>
+      <ul>
+        <li><a href="#">Voting locations by state</a></li>
+        <li><a href="#">Upcoming elections</a></li>
+        <li><a href="#">Additional Resources</a></li>
+      </ul>
+    </div>
   </body>
 </html>
