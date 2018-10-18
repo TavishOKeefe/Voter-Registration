@@ -5,3 +5,7 @@
 #over-18 {
   display: none;
 }
+
+#invalid {
+  display: none;
+}
